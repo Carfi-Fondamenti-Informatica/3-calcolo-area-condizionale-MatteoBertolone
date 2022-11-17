@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	float a=0, b=0;
-    int opzione=0;
+	 float a,b;
+    int opzione;
     cin>>a>>b>>opzione;
     switch(opzione){
         case 0:
@@ -17,5 +17,6 @@ int main() {
             break;
         default:
             cout<<"opzione non valida";
+	}
    return 0;
 }
