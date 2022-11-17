@@ -16,6 +16,6 @@ int main() {
             cout<<a*b;
             break;
         default:
-            cout<<"opzione non valida"
+            cout<<"opzione non valida";
    return 0;
 }
