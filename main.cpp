@@ -4,8 +4,7 @@ using namespace std;
 int main() {
 	float a=0, b=0;
     int opzione=0;
-    cin>>a>>b;
-    cin>>opzione;
+    cin>>a>>b>>opzione;
     switch(opzione){
         case 0:
             cout<<(a*b)/2;
@@ -17,6 +16,6 @@ int main() {
             cout<<a*b;
             break;
         default:
-            cout<<"Opzione non valida"<<endl;
+            cout<<"opzione non valida"
    return 0;
 }
